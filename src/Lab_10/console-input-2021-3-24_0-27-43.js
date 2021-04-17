@@ -1,0 +1,1 @@
+var anchors = document.getElementsByTagName("A");
