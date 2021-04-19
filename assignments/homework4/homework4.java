@@ -70,4 +70,53 @@ Total Points: 25 points.
  * 
  * 
  * 
- * **/
+ * **
+ */
+
+ package homework4;
+
+ public class Ingredient {
+     private String name, measuringUnit;
+     private int caloriesPerUnit;
+     
+     public Ingredient (String name, String measuringUnit, int caloriesPerUnit) {
+        this.name = name;
+        this.measuringUnit;
+        this.caloriesPerUnit;
+     }
+
+     public String getName() {
+         return name;
+
+     }
+
+     public void setName(String name) {
+         this.name = name;
+     }
+     
+     public void getMeasuringUnit() {
+         return measuringUnit;
+     }
+     public void setMeasuringUnit(String measuringUnit) {
+         this.measuringUnit = measuringUnit;
+     }
+
+     public int getCaloriesPerUnit() {
+         return name;
+     }
+      public void setCaloriesPerUnit() {
+          this.caloriesPerUnit = caloriesPerUnit;
+      }    
+      public String toString() {
+          return name;
+      }
+     public boolean equals(Object o) {
+         if (o instanceof Ingredient) {
+             Ingredient ingredient = (Ingredient)o;
+             return ingredient.name.equals(name)
+                    && ingredient.measuringUnit.equals(measuringUnit)
+                    && ingredient.caloriesPersUnit == caloriesPerUnit;
+
+         }
+      }
+
