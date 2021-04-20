@@ -7,16 +7,16 @@ public class Calculator {
         System.out.println(args);
         int two = Integer.parseInt(args[2]);
         
-        if(operator.equals("+")) {
-            System.out.println(one+two);
-        
-        } else if(operator.equals("-")) {
-            System.out.println(one-two);
-        
-        } else if(operator.equals("*")) {
+        if(operator == ("*")) {
             System.out.println(one*two);
         
-        } else if (operator.equals("/")) {
+        } else if(operator == ("-")) {
+            System.out.println(one-two);
+        
+        } else if(operator == ("*")) {
+            System.out.println(one*two);
+        
+        } else if (operator == ("/")) {
             try {
                 System.out.println(one/two);
             } catch(ArithmeticException e) {
