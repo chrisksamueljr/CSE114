@@ -6,18 +6,23 @@ public class Calculator {
         String operator = args[1];
         System.out.println(args);
         int two = Integer.parseInt(args[2]);
+        
         if(operator.equals("+")) {
             System.out.println(one+two);
+        
         } else if(operator.equals("-")) {
             System.out.println(one-two);
+        
         } else if(operator.equals("*")) {
-            System.out.println(two);
             System.out.println(one*two);
+        
         } else if (operator.equals("/")) {
-            try {System.out.println(one/two);
-                System.out.println("hello");
+            try {
+                System.out.println(one/two);
             } catch(ArithmeticException e) {
-                System.out.println("Can't divide by zero");
+                System
+
+                    .out.println("Can't divide by zero");
             }
         }
     }
