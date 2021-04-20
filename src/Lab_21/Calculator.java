@@ -9,7 +9,7 @@ public class Calculator {
             System.out.println(one+two);
         } else if(operator.equals("-")) {
             System.out.println(one-two);
-        } else if(operator.charAt(0) == '*') {
+        } else if(operator.charAt(0) == "*") {
             System.out.println(two);
             System.out.println(one*two);
         } else if (operator.equals("/")) {
