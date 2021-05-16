@@ -12,7 +12,7 @@ public class ExceptionHandling {
         try {
             System.out.println(number1 + "/" + number2 + " is " + (number1 /  number2));
         } catch (Exception ex) {
-            System.out.println("Exception: an integer " + " cannot be divided by zero ")
+            System.out.println("Exception: an integer " + " cannot be divided by zero ");
         }
         System.out.println(" Execution continues.... ");
     }
