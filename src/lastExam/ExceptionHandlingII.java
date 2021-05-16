@@ -21,7 +21,7 @@ public class ExceptionHandlingII {
         } catch (Exception ex) {
             System.out.println("Exception: an integer " + " cannot be divided by zero ");
         }
-        System.out.println(" Execution continues.... ");
+        System.out.println(" Execution continues.... Bye. ");
     }
 }
 
