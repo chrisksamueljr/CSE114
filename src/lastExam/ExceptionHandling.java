@@ -1,5 +1,6 @@
 package lastExam;
 
+import java.util.Scanner;
 
 public class ExceptionHandling {
     public static void main (String[] args) {
@@ -8,7 +9,13 @@ public class ExceptionHandling {
          System.out.print("Enter two integers: ");
          int  number1 = input.nextInt();
          int  number2 = input.nextInt();
-         System.out.println(number1 + "/" + number2 + " is " + (number1 /  number2));
+        try {
+            System.out.println(number1 + "/" + number2 + " is " + (number1 /  number2));
+        } catch (Exception ex) {
+            System.out.println("Exception: an integer " + " cannot be divided by zero ")
+        }
+        System.out.println(" Execution continues.... ");
     }
 }
+
 
