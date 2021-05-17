@@ -4,7 +4,7 @@ package lastExam;
 public class ExceptionExamExampleI {
 
     public static void main (String[] args) {
-      int num1, num2, result = 0;
+      int num1 = 1 , num2 = 1, result = 0;
       if (args.length != 3) {
   System.out.println("Please use: java Calculator num1 op num2");
        System.exit(0);
